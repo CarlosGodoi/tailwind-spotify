@@ -1,17 +1,37 @@
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import {
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  Play,
+  Search,
+  User,
+} from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
 
 export default function Main() {
   return (
     <main className="flex-1 p-6">
-      <div className="flex items-center gap-4">
-        <button className="rounded-full bg-black/40 p-1">
-          <ChevronLeft />
-        </button>
-        <button className="rounded-full bg-black/40 p-1">
-          <ChevronRight />
-        </button>
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-4">
+          <button className="rounded-full bg-black/40 p-1">
+            <ChevronLeft />
+          </button>
+          <button className="rounded-full bg-black/40 p-1">
+            <ChevronRight />
+          </button>
+          <div className="w-60 flex items-center bg-zinc-100 rounded-full p-2 gap-2">
+            <Search className="text-black" />
+            <span className="font-semibold text-black text-sm">Kendrick</span>
+          </div>
+        </div>
+        <div className="flex items-center rounded-full bg-black/40 p-1 gap-2">
+          <div className="w-7 h-7 flex items-center justify-center rounded-full bg-zinc-500">
+            <User />
+          </div>
+          edu85godoi
+          <ChevronDown />
+        </div>
       </div>
       <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
 
@@ -28,7 +48,7 @@ export default function Main() {
           />
           <strong>Trap Friday</strong>
           <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-            <Play />
+            <Play size={16} />
           </button>
         </a>
         <a
@@ -43,7 +63,7 @@ export default function Main() {
           />
           <strong>The Best Funk</strong>
           <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-            <Play />
+            <Play size={16} />
           </button>
         </a>
         <a
@@ -51,14 +71,14 @@ export default function Main() {
           className="bg-white/5 group rounded flex items-center overflow-hidden hover:bg-white/10 transition-colors gap-4"
         >
           <Image
-            src={'/capa3.jfif'}
+            src={'/capa7.jfif'}
             width={104}
             height={104}
             alt="Capa do album"
           />
-          <strong>Matheus & Kauan</strong>
+          <strong>Eminem</strong>
           <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-            <Play />
+            <Play size={16} />
           </button>
         </a>
         <a
@@ -73,7 +93,7 @@ export default function Main() {
           />
           <strong>Emanon</strong>
           <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-            <Play />
+            <Play size={16} />
           </button>
         </a>
         <a
@@ -88,7 +108,7 @@ export default function Main() {
           />
           <strong>Rap Trap</strong>
           <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-            <Play />
+            <Play size={16} />
           </button>
         </a>
         <a
@@ -103,12 +123,17 @@ export default function Main() {
           />
           <strong>Kendrick Lamar</strong>
           <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-            <Play />
+            <Play size={16} />
           </button>
         </a>
       </div>
 
-      <h2 className="font-semibold text-2xl mt-10">Made for Eduardo</h2>
+      <div className="flex items-center justify-between">
+        <h2 className="font-semibold text-2xl mt-10">Made for Eduardo</h2>
+        <span className="font-semibold text-1xl text-zinc-300 mt-10">
+          Show All
+        </span>
+      </div>
 
       <div className="grid grid-cols-6 gap-4 mt-4">
         <a
@@ -158,14 +183,14 @@ export default function Main() {
           className="bg-white/5 p-3 flex flex-col rounded hover:bg-white/10"
         >
           <Image
-            src={'/capa3.jfif'}
+            src={'/capa7.jfif'}
             className="w-full"
             width={120}
             height={120}
             alt="Capa do album"
           />
-          <strong className="font-semibold">Matheus & Kauan</strong>
-          <span className="text-sm text-zinc-400">Intensamente hoje</span>
+          <strong className="font-semibold">Eminem</strong>
+          <span className="text-sm text-zinc-400">The Eminem Show</span>
         </a>
         <a
           href="#"
