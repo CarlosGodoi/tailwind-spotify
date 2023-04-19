@@ -47,7 +47,7 @@ export default function Main() {
             alt="Capa do album"
           />
           <strong>Trap Friday</strong>
-          <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+          <button className="w-9 h-9 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
             <Play size={16} />
           </button>
         </a>
@@ -62,7 +62,7 @@ export default function Main() {
             alt="Capa do album"
           />
           <strong>The Best Funk</strong>
-          <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+          <button className="w-9 h-9 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
             <Play size={16} />
           </button>
         </a>
@@ -77,7 +77,7 @@ export default function Main() {
             alt="Capa do album"
           />
           <strong>Eminem</strong>
-          <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+          <button className="w-9 h-9 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
             <Play size={16} />
           </button>
         </a>
@@ -92,7 +92,7 @@ export default function Main() {
             alt="Capa do album"
           />
           <strong>Emanon</strong>
-          <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+          <button className="w-9 h-9 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
             <Play size={16} />
           </button>
         </a>
@@ -107,7 +107,7 @@ export default function Main() {
             alt="Capa do album"
           />
           <strong>Rap Trap</strong>
-          <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+          <button className="w-9 h-9 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
             <Play size={16} />
           </button>
         </a>
@@ -122,7 +122,7 @@ export default function Main() {
             alt="Capa do album"
           />
           <strong>Kendrick Lamar</strong>
-          <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+          <button className="w-9 h-9 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
             <Play size={16} />
           </button>
         </a>
